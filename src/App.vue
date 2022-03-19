@@ -1,8 +1,14 @@
+<!--
+ * @Author: Fanpingfan
+ * @Date: 2022-03-19 20:21:43
+ * @LastEditors: Fanpingfan
+ * @LastEditTime: 2022-03-19 22:08:08
+-->
 <template>
-  <nav>
+  <!-- <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-  </nav>
+  </nav> -->
   <router-view />
 </template>
 
