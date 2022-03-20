@@ -1,3 +1,9 @@
+<!--
+ * @Author: Fanpingfan
+ * @Date: 2022-03-20 21:05:00
+ * @LastEditors: Fanpingfan
+ * @LastEditTime: 2022-03-20 21:15:16
+-->
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
@@ -16,6 +22,6 @@ import HelloWorld from './components/HelloWorld.vue'
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 60px; 
 }
 </style>
