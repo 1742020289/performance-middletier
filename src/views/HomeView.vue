@@ -2,7 +2,7 @@
  * @Author: Fanpingfan
  * @Date: 2022-03-19 20:21:43
  * @LastEditors: Fanpingfan
- * @LastEditTime: 2022-03-19 22:02:15
+ * @LastEditTime: 2022-03-20 20:13:53
 -->
 <template>
   <div class="home">
@@ -11,16 +11,15 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
 import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
-import MemoryInfo from "@/components/MemoryInfo.vue";
+import { defineComponent } from "@vue/runtime-core";
+import MemoryInfo from "../components/MemoryInfo.vue"
 
-@Options({
-  components: {
+export default defineComponent({
+  components:{
     MemoryInfo,
-  },
-})
-export default class HomeView extends Vue {}
+  }
+}) 
 </script>
 <style scoped>
 

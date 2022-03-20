@@ -111,16 +111,12 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
+import { defineComponent } from "@vue/runtime-core";
 
-@Options({
-  props: {
-    msg: String,
-  },
-})
-export default class HelloWorld extends Vue {
-  msg!: string;
-}
+
+export default defineComponent({
+
+}) 
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
